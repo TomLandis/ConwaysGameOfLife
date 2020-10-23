@@ -1,0 +1,98 @@
+.alive {
+  color: yellow;
+  height: 10px;
+  width: 10px;
+  border: 1px, solid, green;
+  display: inline;
+}
+.dead:hover{
+  color: yellow;
+  cursor: crosshair;
+}
+.dead {
+  background-color: black;
+  height: 10px;
+  width: 10px;
+  border: 1px, solid, green;
+  display: inline;
+}
+
+#Cell {
+  display: inline;
+}
+
+
+.outerBox {
+  width: 663px;
+  background-color: black;
+  margin: 0 auto;
+  border: 12px solid #f4a442;
+}
+h3 {
+  color: #d5f2dc;
+  padding-top: 8px;
+ text-align: center;
+font-family: 'Orbitron', sans-serif;
+}
+h3:hover{
+    color: #b2ff5e;
+    z-index: 1;
+    -webkit-transition: all 2000ms ease-in;
+    -webkit-transform: scale(2.5);
+    -ms-transition: all 2000ms ease-in;
+    -ms-transform: scale(2.5);   
+    -moz-transition: all 2000ms ease-in;
+    -moz-transform: scale(2.5);
+    transition: all 2000ms ease-in;
+    transform: scale(2.5);
+  
+}
+h5{
+   
+font-family: 'Quicksand', sans-serif;
+  text-align: left;
+  margin-left: 100px;
+  font-size: 1.3em;
+  color: #ffffff;
+}
+
+#title {
+  width: 50%;
+  margin: 0 auto;
+}
+body {
+  background-color: #203d00;
+}
+
+button {
+  color: black;
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.5em;
+  margin-right: 40px;
+  margin-left: 20px;
+  background-color: #ffc27c;
+  border-radius: 33px 33px 33px 33px;
+-moz-border-radius: 33px 33px 33px 33px;
+-webkit-border-radius: 33px 33px 33px 33px;
+border: 4px double #fff200;
+}
+button:hover {
+  color: red;
+   
+    -webkit-transition: all 500ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 500ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 500ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 500ms ease-in;
+    transform: scale(1.5);
+}
+a {
+  color: black;
+  text-decoration:none;
+}
+
+#clear {
+  float: right;
+}
